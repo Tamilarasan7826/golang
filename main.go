@@ -62,6 +62,7 @@ import "fmt"
 func main() {
    var name=[]string{"tamil","mani","ram"}
    name=append(name,"vikki","naveen","jeeva")
-   fmt.Printf("this is slice %v\n",name)
+   fmt.Printf("this is slice %v \n",name)
+   fmt.Println("this is golang project")
    fmt.Println(name)
 }
